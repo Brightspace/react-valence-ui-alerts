@@ -1,0 +1,36 @@
+{
+  "name": "react-vui-validation",
+  "version": "0.0.1",
+  "description": "React component for displaying errors and validation messages",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Brightspace/react-valence-ui-validation.git"
+  },
+  "keywords": [
+    "d2l",
+    "valence-ui",
+    "vui",
+    "react"
+  ],
+  "author": "D2L Corporation",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/Brightspace/react-valence-ui-validation/issues"
+  },
+  "homepage": "https://github.com/Brightspace/react-valence-ui-validation",
+  "dependencies": {
+    "react": "^0.12.2",
+    "react-tools": "^0.12.2"
+  },
+  "devDependencies": {
+    "jest-cli": "^0.2.2"
+  },
+  "jest": {
+    "scriptPreprocessor": "<rootDir>/preprocessor.js",
+    "testDirectoryName": "test",
+    "unmockedModulePathPatterns": ["react"]
+  }
+}
