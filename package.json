@@ -1,13 +1,13 @@
 {
-  "name": "react-vui-validation",
+  "name": "react-vui-alerts",
   "version": "0.0.1",
-  "description": "React component for displaying errors and validation messages",
+  "description": "React component for displaying alerts",
   "scripts": {
     "test": "jest"
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Brightspace/react-valence-ui-validation.git"
+    "url": "https://github.com/Brightspace/react-valence-ui-alerts.git"
   },
   "keywords": [
     "d2l",
@@ -18,9 +18,9 @@
   "author": "D2L Corporation",
   "license": "Apache-2.0",
   "bugs": {
-    "url": "https://github.com/Brightspace/react-valence-ui-validation/issues"
+    "url": "https://github.com/Brightspace/react-valence-ui-alerts/issues"
   },
-  "homepage": "https://github.com/Brightspace/react-valence-ui-validation",
+  "homepage": "https://github.com/Brightspace/react-valence-ui-alerts",
   "dependencies": {
     "react": "^0.12.2"
   },
