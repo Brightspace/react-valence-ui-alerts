@@ -2,8 +2,9 @@
   "name": "react-vui-alerts",
   "version": "0.0.1",
   "description": "React component for displaying alerts",
+  "main": "lib/index.js",
   "scripts": {
-    "less": "lessc appError.less > appError.css",
+    "less": "lessc lib/appError.less > lib/appError.css",
     "test": "jest"
   },
   "repository": {
