@@ -1,18 +1,35 @@
-jest.dontMock( '../appError' );
+'use strict';
 
-describe( 'my test', function() {
+jest.dontMock( '../lib/appError' );
 
-	it( 'this test', function() {
+describe( 'appError', function() {
 
-		var React = require( 'react/addons' );
-		var AppError = require('../appError');
-		var TestUtils = React.addons.TestUtils;
+	var React, TestUtils, AppError;
+
+	beforeEach( function() {
+		React = require( 'react/addons' );
+		TestUtils = React.addons.TestUtils;
+		AppError = require('../lib/appError');
+	} );
+
+	it( 'has the error message', function() {
+
+		var appError = TestUtils.renderIntoDocument(
+			<AppError>test error message</AppError>
+		);
+
+		expect( appError.getDOMNode().textContent ).toBe( 'test error message' );
+
+	} );
+
+	it( 'has the app-error css class', function() {
 
 		var appError = TestUtils.renderIntoDocument(
 			<AppError />
 		);
 
-		expect( appError.getDOMNode().textContent ).toBe( 'this is an error' );
+		expect( appError.getDOMNode().className ).toBe( 'app-error' );
+
 	} );
 
 } );
