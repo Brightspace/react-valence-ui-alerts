@@ -1,11 +1,13 @@
+'use strict';
+
 var React = require( 'react' );
 
 var AppError = React.createClass( {
 
 	render: function() {
 		return (
-			<div>
-				this is an error
+			<div className="app-error">
+				{this.props.children}
 			</div>
 		);
 	}
