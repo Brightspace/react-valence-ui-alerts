@@ -1,4 +1,4 @@
-# react-valence-ui-alerts
+# react-vui-alerts
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][ci-image]][ci-url]
