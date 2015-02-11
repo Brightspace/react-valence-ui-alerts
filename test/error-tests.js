@@ -4,18 +4,18 @@ jest.dontMock( '../lib/error' );
 
 describe( 'error', function() {
 
-	var React, TestUtils, AppError;
+	var React, TestUtils, Alerts;
 
 	beforeEach( function() {
 		React = require( 'react/addons' );
 		TestUtils = React.addons.TestUtils;
-		AppError = require('../lib/error');
+		Alerts = require('../lib/index');
 	} );
 
 	it( 'has the error message', function() {
 
 		var appError = TestUtils.renderIntoDocument(
-			<AppError>test error message</AppError>
+			<Alerts.Error>test error message</Alerts.Error>
 		);
 
 		expect( appError.getDOMNode().textContent ).toBe( 'test error message' );
@@ -25,7 +25,7 @@ describe( 'error', function() {
 	it( 'has the app-error css class', function() {
 
 		var appError = TestUtils.renderIntoDocument(
-			<AppError />
+			<Alerts.Error />
 		);
 
 		expect( appError.getDOMNode().className ).toBe( 'app-error' );
