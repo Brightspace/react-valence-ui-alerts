@@ -17,7 +17,7 @@ npm install react-vui-alerts
 
 Require the component:
 ```javascript
-var AppError = require('react-vui-alerts').AppError;
+var Alerts = require('react-vui-alerts');
 ```
 
 And then use the component as a container for your error message:
@@ -27,7 +27,7 @@ var AppComponent = React.createClass({
      ...
      render: function() {
           if (this.state.isError) {
-               return <AppError> some error content/view </AppError>;
+               return <Alerts.Error> some error content/view </Alerts.Error>;
           } else {
                return <SomeOtherView />;
           }

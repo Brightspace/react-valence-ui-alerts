@@ -1,6 +1,6 @@
 {
   "name": "react-vui-alerts",
-  "version": "0.0.4",
+  "version": "0.1.0",
   "description": "React component for displaying alerts",
   "main": "lib/index.js",
   "scripts": {
