@@ -4,7 +4,7 @@
   "description": "React component for displaying alerts",
   "main": "lib/index.js",
   "scripts": {
-    "less": "lessc lib/appError.less > lib/appError.css",
+    "less": "lessc lib/error.less > lib/error.css",
     "build": "npm run less",
     "test": "npm run build && jest"
   },

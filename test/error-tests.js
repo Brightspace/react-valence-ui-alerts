@@ -1,15 +1,15 @@
 'use strict';
 
-jest.dontMock( '../lib/appError' );
+jest.dontMock( '../lib/error' );
 
-describe( 'appError', function() {
+describe( 'error', function() {
 
 	var React, TestUtils, AppError;
 
 	beforeEach( function() {
 		React = require( 'react/addons' );
 		TestUtils = React.addons.TestUtils;
-		AppError = require('../lib/appError');
+		AppError = require('../lib/error');
 	} );
 
 	it( 'has the error message', function() {
