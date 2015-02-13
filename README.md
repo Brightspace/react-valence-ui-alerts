@@ -35,6 +35,11 @@ var AppComponent = React.createClass({
      ...
 });
 ```
+## Contributing
+
+### Code Style
+
+This repository is configured with [EditorConfig](http://editorconfig.org) rules and contributions should make use of them. See the [VUI Best Practices & Style Guide](https://github.com/Brightspace/valence-ui-docs/wiki/Best-Practices-&-Style-Guide) for more information.
 
 [npm-url]: https://www.npmjs.org/package/react-vui-alerts
 [npm-image]: https://img.shields.io/npm/v/react-vui-alerts.svg
