@@ -32,4 +32,14 @@ describe( 'error', function() {
 
 	} );
 
+	it( 'has the aria alert role', function() {
+
+		var appError = TestUtils.renderIntoDocument(
+			<Alerts.Error />
+		);
+
+		expect( appError.getDOMNode().getAttribute('role') ).toBe( 'alert' );
+
+	} );
+
 } );
