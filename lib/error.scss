@@ -1,5 +1,5 @@
 @import 'node_modules/vui-alerts/error';
 
 .app-error {
-	#vui.Alerts.error();
+	@include vui-alerts-error;
 }
