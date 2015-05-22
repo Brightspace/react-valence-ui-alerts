@@ -4,7 +4,7 @@
 [![Build status][ci-image]][ci-url]
 [![Dependency Status][dependencies-image]][dependencies-url]
 
-LESS mixins and CSS for styling alerts.
+Sass mixins and CSS for styling alerts.
 
 ## Installation
 
