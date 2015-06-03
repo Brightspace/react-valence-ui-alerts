@@ -4,8 +4,8 @@
   "description": "React component for displaying alerts",
   "main": "lib/index.js",
   "scripts": {
-    "build:sass": "node-sass --output-style expanded lib/error.scss lib/error.css",
-    "build": "npm run build:sass",
+    "build:css": "node-sass --output-style expanded lib/error.scss lib/error.css",
+    "build": "npm run build:css",
     "test": "npm run build && jest"
   },
   "repository": {
