@@ -1,4 +1,4 @@
-@import 'node_modules/vui-alerts/error';
+@import '../node_modules/vui-alerts/error';
 
 .app-error {
 	@include vui-alerts-error;
