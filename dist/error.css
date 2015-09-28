@@ -1,0 +1,17 @@
+.app-error {
+  background-color: #ffeeec;
+  border-width: 0;
+  border-left: 5px solid #ff7962;
+  border-bottom-right-radius: 3px;
+  border-top-right-radius: 3px;
+  padding: 6px;
+}
+
+[dir='rtl'] .app-error {
+  border-left-width: 0;
+  border-right: 5px solid #ff7962;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  border-bottom-left-radius: 3px;
+  border-top-left-radius: 3px;
+}
