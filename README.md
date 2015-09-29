@@ -20,6 +20,14 @@ bower install react-vui-alerts
 
 ## Usage
 
+Import the style:
+
+```javascript
+@import "bower_components/react-vui-alerts/error"; // or...
+
+@import "node_modules/react-vui-alerts/error";
+```
+
 Require the component:
 ```javascript
 var Alerts = require('react-vui-alerts');
