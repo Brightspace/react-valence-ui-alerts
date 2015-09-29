@@ -13,6 +13,11 @@ Install from NPM:
 npm install react-vui-alerts
 ```
 
+Install from Bower:
+```shell
+bower install react-vui-alerts
+```
+
 ## Usage
 
 Require the component:

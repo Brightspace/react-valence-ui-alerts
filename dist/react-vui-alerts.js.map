@@ -2,8 +2,8 @@
   "version": 3,
   "sources": [
     "node_modules/browserify/node_modules/browser-pack/_prelude.js",
-    "/Users/dbatiste/source/react/react-vui-alerts/lib/error.js",
-    "/Users/dbatiste/source/react/react-vui-alerts/lib/index.js"
+    "/Users/dbatiste/source/react/react-vui-alerts/error.js",
+    "/Users/dbatiste/source/react/react-vui-alerts/index.js"
   ],
   "names": [],
   "mappings": "AAAA;;;ACAA,IAAI,KAAK,GAAG,OAAO,CAAC,OAAO,CAAC,CAAC;;AAE7B,IAAI,QAAQ,GAAG,KAAK,CAAC,WAAW,CAAE;;;AAEjC,mBAAkB,EAAE,8BAAW;;AAE9B,MAAI,IAAI,GAAG,IAAI,CAAC,UAAU,EAAE,CAAC;AAC7B,MAAI,CAAC,KAAK,CAAC,UAAU,GAAC,QAAQ,CAAC;AAC/B,MAAI,CAAC,KAAK,CAAC,UAAU,GAAC,SAAS,CAAC;EAChC;;AAED,OAAM,EAAE,kBAAW;;AAElB,SAAO,KAAK,CAAC,aAAa,CACzB,KAAK,EACL;AACC,YAAS,EAAE,WAAW;AACtB,OAAI,EAAE,OAAO;GACb,EACD,IAAI,CAAC,KAAK,CAAC,QAAQ,CACnB,CAAC;EAEF;;CAED,CAAE,CAAC;;AAEJ,MAAM,CAAC,OAAO,GAAG,QAAQ,CAAC;;;;;ACzB1B,MAAM,CAAC,OAAO,CAAC,KAAK,GAAG,OAAO,CAAC,SAAS,CAAC,CAAC",
