@@ -1,6 +1,6 @@
 'use strict';
 
-jest.dontMock( '../lib/error' );
+jest.dontMock( '../error' );
 
 describe( 'error', function() {
 
@@ -9,7 +9,7 @@ describe( 'error', function() {
 	beforeEach( function() {
 		React = require( 'react/addons' );
 		TestUtils = React.addons.TestUtils;
-		Alerts = require('../lib/index');
+		Alerts = require('../index');
 	} );
 
 	it( 'has the error message', function() {

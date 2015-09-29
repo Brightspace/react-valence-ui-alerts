@@ -1,18 +1,18 @@
 {
   "name": "react-vui-alerts",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "description": "React component for displaying alerts",
-  "main": "lib/index.js",
+  "main": "index.js",
   "scripts": {
     "prebuild": "npm run clean -s",
-    "build:css": "node-sass --output-style expanded lib/error.scss dist/error.css && cp ./lib/*.scss ./dist/",
-    "build:js": "browserify -d -x react -s react-vui-alerts ./lib/index.js | exorcist ./dist/react-vui-alerts.js.map > ./dist/react-vui-alerts.js && npm run build:js:min",
+    "build:css": "node-sass --output-style expanded error.scss dist/error.css && cp ./*.scss ./dist/",
+    "build:js": "browserify -d -x react -s react-vui-alerts ./index.js | exorcist ./dist/react-vui-alerts.js.map > ./dist/react-vui-alerts.js && npm run build:js:min",
     "build:js:min": "uglifyjs ./dist/react-vui-alerts.js -o ./dist/react-vui-alerts.min.js --source-map ./dist/react-vui-alerts.min.js.map --in-source-map ./dist/react-vui-alerts.js.map",
     "build": "npm run build:css && npm run build:js",
     "clean": "rimraf dist && mkdir dist && rimraf test/coverage",
     "postinstall": "bower install",
     "test:lint:css": "csslint ./dist/*.css",
-    "test:lint:js": "eslint --ext .js --ext .jsx lib",
+    "test:lint:js": "eslint --ext .js --ext .jsx ./*.js",
     "test": "npm run build && npm run test:lint:css && npm run test:lint:js && jest"
   },
   "repository": {
@@ -33,9 +33,6 @@
   "homepage": "https://github.com/Brightspace/react-valence-ui-alerts",
   "peerDependencies": {
     "react": "^0.13.3"
-  },
-  "dependencies": {
-    "vui-alerts": "^0.1.2"
   },
   "devDependencies": {
     "babelify": "^6.1.3",
