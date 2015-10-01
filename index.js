@@ -1,3 +1,3 @@
 'use strict';
 
-module.exports.Error = require('./error');
+module.exports.Error = require('./src/error');
