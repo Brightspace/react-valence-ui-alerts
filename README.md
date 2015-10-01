@@ -5,7 +5,7 @@
 [![Coverage Status][coverage-image]][coverage-url]
 [![Dependency Status][dependencies-image]][dependencies-url]
 
-Sass mixins and CSS for styling alerts.
+React component for displaying alerts.
 
 ## Installation
 
