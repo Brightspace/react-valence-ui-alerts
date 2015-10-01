@@ -2,6 +2,7 @@
 
 [![NPM version][npm-image]][npm-url]
 [![Build status][ci-image]][ci-url]
+[![Coverage Status][coverage-image]][coverage-url]
 [![Dependency Status][dependencies-image]][dependencies-url]
 
 Sass mixins and CSS for styling alerts.
@@ -23,9 +24,9 @@ bower install react-vui-alerts
 Import the style:
 
 ```javascript
-@import "bower_components/react-vui-alerts/error"; // or...
+@import "bower_components/react-vui-alerts/alerts"; // or...
 
-@import "node_modules/react-vui-alerts/error";
+@import "node_modules/react-vui-alerts/alerts";
 ```
 
 Require the component:
@@ -58,5 +59,7 @@ This repository is configured with [EditorConfig](http://editorconfig.org) rules
 [npm-image]: https://img.shields.io/npm/v/react-vui-alerts.svg
 [ci-url]: https://travis-ci.org/Brightspace/react-valence-ui-alerts
 [ci-image]: https://img.shields.io/travis-ci/Brightspace/react-valence-ui-alerts.svg
+[coverage-url]: https://coveralls.io/r/Brightspace/react-valence-ui-alerts?branch=master
+[coverage-image]: https://img.shields.io/coveralls/Brightspace/react-valence-ui-alerts.svg
 [dependencies-url]: https://david-dm.org/brightspace/react-valence-ui-alerts
 [dependencies-image]: https://img.shields.io/david/Brightspace/react-valence-ui-alerts.svg
