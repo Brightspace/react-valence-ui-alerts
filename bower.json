@@ -15,6 +15,6 @@
     "preprocessor.js"
   ],
   "dependencies": {
-    "vui-alerts": "^0.1.2"
+    "vui-alerts": "^0.1.4"
   }
 }
